@@ -342,7 +342,7 @@ typedef std::map<int, std::pair<TGUser *, int > >::iterator UserDataToDispatchIt
         
         [ActionStageInstance() dispatchOnStageQueue:^
         {
-            NSAssert(false, @"Please obtain your own apiId and apiHash at https://my.telegam.org");
+//            NSAssert(false, @"Please obtain your own apiId and apiHash at https://my.telegam.org");
             
             _runningRequests = [[NSMutableArray alloc] init];
             

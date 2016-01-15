@@ -123,7 +123,7 @@ static void TGTelegramLoggingFunction(NSString *format, va_list args)
         MTApiEnvironment *apiEnvironment = [[MTApiEnvironment alloc] init];
         NSString *bundleIdentifier = [[NSBundle mainBundle] bundleIdentifier];
         
-        NSAssert(false, @"Please obtain your own apiId at https://my.telegam.org");
+//        NSAssert(false, @"Please obtain your own apiId at https://my.telegam.org");
         
         apiEnvironment.layer = @([TGTLSerialization currentLayer]);
         
